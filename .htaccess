@@ -1,0 +1,4 @@
+<FilesMatch "^(conexao|funcoes)\.php$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
