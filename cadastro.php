@@ -42,6 +42,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     icon: 'error',
                     title: 'Erro!',
                     html: 'Erro ao cadastrar cliente:<br>{$error}'
+                    showConfirmButton: false,
+                    timer: 1500
                 });
               </script>";
     }
